@@ -534,6 +534,29 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- About phone screen, service state -->
     <string name="phone_service_state">Voice: <xliff:g id="voice_state">%1$s</xliff:g>, data: <xliff:g id="data_state">%2$s</xliff:g></string>
 
+<<<<<<< HEAD
+=======
+    <!-- Anonymous Statistics #CM -->
+    <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
+    <string name="anonymous_statistics_title">CyanogenMod statistics</string>
+    <string name="anonymous_statistics_summary">Help make CyanogenMod better by opting into anonymous statistics reporting</string>
+    <string name="anonymous_statistics_warning_title">About</string>
+    <string name="anonymous_statistics_warning">Opting into CyanogenMod Statistics will allow non-personal data to be submitted to the
+        developers of CyanogenMod to track unique installations across devices. The information submitted includes an unique identifier,
+        which does not compromise your privacy or personal data. The data is submitted during each boot.\n\nFor an example of the data that is submitted, tap on Preview Data.</string>
+    <string name="enable_reporting_title">Enable reporting</string>
+    <string name="preview_data_title">Preview data</string>
+    <string name="view_stats_title">View stats</string>
+    <string name="anonymous_learn_more">Learn more</string>
+
+    <!-- Anonymous Statistics - Preview -->
+    <string name="preview_id_title">Unique ID</string>
+    <string name="preview_device_title">Device</string>
+    <string name="preview_version_title">Version</string>
+    <string name="preview_country_title">Country</string>
+    <string name="preview_carrier_title">Carrier</string>
+
+>>>>>>> ec50291... Merge branch 'cm-11.0' into stable/cm-11.0
     <!-- INTERFACE Settings -->
     <!-- Settings main menu category heading. Interface (Launcher, Themes, System). [CHAR LIMIT=40] -->
     <string name="header_category_interface">Personalization</string>
@@ -1292,6 +1315,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="sd_media_format_final_desc">Erase the SD card, deleting all files stored there? You can\'t reverse this action!</string>
     <string name="sd_media_format_gesture_explanation">You need to draw your unlock pattern to confirm that you want to erase the SD card.</string>
 
+<<<<<<< HEAD
     <!-- Battery bar -->
     <string name="battery_bar">Battery bar location</string>
     <string name="battery_bar_color">Battery bar color</string>
@@ -1309,6 +1333,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="set">Set</string>
     <string name="hex">Hex:</string>
 
+=======
+>>>>>>> ec50291... Merge branch 'cm-11.0' into stable/cm-11.0
     <!-- Message when bluetooth dialog for pin entry is showing  when HIGH security enabled-->
     <string name="bluetooth_enter_pin_msg_hs">To pair with:<xliff:g id="bold">&lt;br>&lt;b></xliff:g><xliff:g id="device_name">%1$s</xliff:g><xliff:g id="end_bold">&lt;/b>&lt;br>&lt;br></xliff:g>Type the device\'s required PIN (16 digits or more):</string>
 
